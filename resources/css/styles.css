@@ -51,12 +51,17 @@ body{
 
 #mission{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   padding-top: 70px;
   height: 700px;
   width: 1200px;
   margin: auto;
   display: flex;
+  align-items: center;
+}
+
+.main{
+  padding-top: 70px;
 }
 
 .content{
