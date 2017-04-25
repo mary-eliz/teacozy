@@ -114,14 +114,13 @@ body{
 
 
 .local{
-  width: 300px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   background-color: black;
   margin-right: 40px;
-  flex-basis: 250px;
+  flex-basis: 300px;
   align-items: center;
+  justify-content: center;
 }
 
 
@@ -137,10 +136,11 @@ body{
   display: flex;
   opacity: 1;
   justify-content: center;
+  text-align: center;
 }
 
 .local span{
-  margin-bottom: 20px;
+  margin: 23px 0;
   text-align: center;
 }
 
@@ -149,4 +149,11 @@ body{
 .footer{
   text-align: center;
   height: 200px;
+}
+
+/*copyrightr*/
+
+.copyright{
+  text-align:left;
+  margin-left: 20px;
 }
