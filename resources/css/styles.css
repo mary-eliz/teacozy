@@ -95,6 +95,7 @@ body{
 .items span{
   display: block;
   margin: 10px;
+  text-align: center;
 }
 
 .item{
@@ -140,6 +141,7 @@ body{
   justify-content: center;
 }
 
-span{
+.local span{
   margin-bottom: 20px;
+  text-align: center;
 }
