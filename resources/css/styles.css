@@ -21,10 +21,11 @@ header{
 }
 
 nav{
-  display: block;
+  display: flex;
   color: white;
-  text-align: right;
+  text-align: left;
   flex-grow: 1;
+  text-align: right;
 }
 
 nav a{
@@ -35,6 +36,7 @@ nav a{
   text-decoration: underline;
   padding: 0px 10px;
   color: white;
+  text-align: right;
 }
 
 body{
@@ -48,71 +50,53 @@ body{
 
 /*Mission*/
 
-.content{
-  padding-top: 71px;
-  text-align: center;
-}
-
 #mission{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  padding-top: 70px;
-  text-align: center;
-  justify-content: center;
-}
-.container{
-  margin: 0 auto;
-  flex-wrap: wrap;
-  display: flex;
-  width: 1200px;
+  background-repeat: no-repeat;
+  /*padding-top: 70px;*/
   height: 700px;
-}
-
-#mission .content{
-}
-
-
-
-#store{
-  width: 1000px;
-  justify-content: center;
-  text-align: center;
-
-}
-
-.container .items{
+  width: 1200px;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
 }
 
-.item span{
-  display: block;
-  margin-top: 10px;
+.content{
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  width: 100%;
 }
 
 
-/* store
-.item{
+.container{
   align-items: center;
 }
 
-.item img{
+.container h2,
+.container h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*STORE!!!*/
+
+#store{
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.items span{
   display: block;
   margin: 10px;
-  flex-wrap: wrap;
 }
-
-
-.container.items{
-  justify-content: center;
-  display: flex;
-}
-
-#store.text{
-
-  text-align: center;
-  flex-wrap: wrap;
-}
-*/
 
 /*Locations*/
 
@@ -120,12 +104,15 @@ body{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   align-items: center;
   justify-content: center;
-  display: flex;
+  flex-direction: row;
+  height: 500px;
 }
 
 
+
+ /*
 #locations h4{
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -133,13 +120,12 @@ body{
 
 .local{
   width: 300px;
-  /*  display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: black;
-    margin-right: 40px;
-    flex-basis: 250px */
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: black;
+  margin-right: 40px;
+  flex-basis: 250px;
 }
 
 .locations{
@@ -150,3 +136,5 @@ body{
 span{
   margin-bottom: 20px;
 }
+
+*/
